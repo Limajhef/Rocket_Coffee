@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Manrope', sans-serif; 
+overflow: hidden;
+}
+
+:root {
+  --background: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+  height: 15vh;
+}
+
+.grid {
+  display: flex;
+}
+
+body{
+  background-color: var(--background);
+  height: 100%
+}
+
+a{
+  text-decoration: none;
+  color:var(--text-color)
+}
+
+nav .menu{
+  position: absolute;
+  width: 100%;
+}
+  
+.menu-li {
+  color: var(--text-color);
+  list-style: none;
+  padding: 11px 38px;
+}
+
+.titulo {
+  font-size: 5rem;
+  color: var(--text-color);
+  z-index: 0;
+}
+
+.subtitulo {
+  font-size: 80px;
+  margin: -3%;
+  -webkit-text-stroke-width: 2px; 
+  -webkit-text-stroke-color: var(--button);
+  z-index: 1;
+  font-family: 'Manrope', sans-serif;
+}
+
+.textos {
+  text-align: center;
+}
+
+.containergrid {
+  height: 100%;
+}
+
+button{
+  background: none;
+  border: 1px solid var(--button);
+  color: transparent;
+  cursor: pointer;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0 45px;
+  width: 250px;
+  height: 45px;
+  font-size: 1rem;
+  color: var(--text-color);
+  border-radius: 7px;
+}
+
+img {
+  z-index: -2;
+}
+
+.imagem_principal {
+  z-index: -1;
+  margin: -2%;
+}
+
+.buttonOn {
+  background: none;
+}
+
+.buttonOn:hover {
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+}
+
+.buttonOff {
+  margin-left: 4px;
+  background-color: #f31632;
+}
